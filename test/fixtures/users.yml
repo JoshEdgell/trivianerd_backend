@@ -1,0 +1,59 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  username: MyString
+  password_digest: MyString
+  first_name: MyString
+  last_name: MyString
+  books_correct: 1
+  books_incorrect: 1
+  film_correct: 1
+  film_incorrect: 1
+  music_correct: 1
+  music_incorrect: 1
+  television_correct: 1
+  television_incorrect: 1
+  games_correct: 1
+  games_incorrect: 1
+  nature_correct: 1
+  nature_incorrect: 1
+  computers_correct: 1
+  computers_incorrect: 1
+  sports_correct: 1
+  sports_incorrect: 1
+  history_correct: 1
+  history_incorrect: 1
+  animals_correct: 1
+  animals_incorrect: 1
+  total_correct: 1
+  total_incorrect: 1
+  total_score: 1
+
+two:
+  username: MyString
+  password_digest: MyString
+  first_name: MyString
+  last_name: MyString
+  books_correct: 1
+  books_incorrect: 1
+  film_correct: 1
+  film_incorrect: 1
+  music_correct: 1
+  music_incorrect: 1
+  television_correct: 1
+  television_incorrect: 1
+  games_correct: 1
+  games_incorrect: 1
+  nature_correct: 1
+  nature_incorrect: 1
+  computers_correct: 1
+  computers_incorrect: 1
+  sports_correct: 1
+  sports_incorrect: 1
+  history_correct: 1
+  history_incorrect: 1
+  animals_correct: 1
+  animals_incorrect: 1
+  total_correct: 1
+  total_incorrect: 1
+  total_score: 1
