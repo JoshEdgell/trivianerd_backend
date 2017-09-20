@@ -7,12 +7,12 @@ class UsersController < ApplicationController
   def index
     @users = User.all
 
-    render json: @users.to_json(include: :badges)
+    render json: @users.to_json(include: [:badges])
   end
 
   # GET /users/1
   def show
-    render json: @user.to_json(include: :badges)
+    render json: @user.to_json(include: [:badges])
   end
 
   #LOGIN
