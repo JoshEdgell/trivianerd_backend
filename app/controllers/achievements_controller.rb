@@ -18,7 +18,7 @@ class AchievementsController < ApplicationController
     @achievement = Achievement.new(achievement_params)
 
     if @achievement.save
-      render json: @achievement, status: :created, location: @achievement
+      render json: @achievement, status: :created
     else
       render json: @achievement.errors, status: :unprocessable_entity
     end
