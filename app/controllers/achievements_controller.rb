@@ -5,12 +5,12 @@ class AchievementsController < ApplicationController
   def index
     @achievements = Achievement.all
 
-    render json: @achievements
+    render json: @achievements.to_json(include: :users)
   end
 
   # GET /achievements/1
   def show
-    render json: @achievement
+    render json: @achievement.to_json(include: :users)
   end
 
   # POST /achievements
